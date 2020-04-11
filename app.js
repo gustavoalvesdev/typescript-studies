@@ -7,4 +7,9 @@ console.log("Next episode is " + episode);
 var favoriteDroid;
 favoriteDroid = 'BB-8';
 console.log("My favorite Droid is " + favoriteDroid);
+var isEnoughToBeatMF = function (parsecs) {
+    return parsecs < 12;
+};
+var distance = 14;
+console.log("Is " + distance + " enough to  beat Millenium Falcon? " + isEnoughToBeatMF(distance));
 //# sourceMappingURL=app.js.map

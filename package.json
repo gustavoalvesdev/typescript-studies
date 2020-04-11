@@ -1,0 +1,22 @@
+{
+    "name": "typescript-studies",
+    "version": "1.0.0",
+    "description": "repository to learn a little more about TypeScript",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon ./app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gustavoalvesdev/typescript-studies.git"
+    },
+    "author": "gustavoalvesdev",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/gustavoalvesdev/typescript-studies/issues"
+    },
+    "homepage": "https://github.com/gustavoalvesdev/typescript-studies#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.3"
+    }
+}
