@@ -12,4 +12,12 @@ var isEnoughToBeatMF = function (parsecs) {
 };
 var distance = 14;
 console.log("Is " + distance + " enough to  beat Millenium Falcon? " + isEnoughToBeatMF(distance));
+var call = function (name) { return console.log("Do you copy, " + name + "?"); };
+call('R2');
+function inc(speed, inc) {
+    if (inc === void 0) { inc = 1; }
+    return speed + inc;
+}
+console.log("inc (5, 1) = " + inc(5, 1));
+console.log("inc (5) = " + inc(5));
 //# sourceMappingURL=app.js.map
